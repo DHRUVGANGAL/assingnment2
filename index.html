@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    
+            background-color: rgb(240, 199, 150);
+        }
+        
+        #dhruv{
+            /* background-color:; */
+            border-width: 10px;
+            border-color: rgb(138, 6, 6);
+            border-style: solid;
+            border-radius: 10px;
+        
+            padding-left:  300px; 
+            margin-left: 250px;
+            margin-right: 250px;    
+            background-color: white; 
+            padding-bottom: 10px;      
+
+        }
+        .button{
+            border-radius: 20px;
+            cursor: pointer;
+            padding: 7px;
+            color: rgb(139, 11, 71);
+        }
+        .one{
+            width: 100px;
+            height: 15px
+            display:flex;
+            margin: 10px 20px;
+
+              
+            
+        }
+        .label{
+            font-family: cursive;
+            font-weight: bold;
+            margin-left: 2px;
+
+            color: rgb(12, 12, 12);
+        }
+        span{
+            font-family:cursive;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="index.html" id="dhruv">
+         <h1 style="color: rgb(41, 61, 151);">ASSIGNMENT 2</h1> 
+      <div> <label for="name" class="label">First Name:</label>
+       <input required type="text" name="name" id="fname" class="one" ></div>
+
+       <div> <label for="name" class="label">Last Name:</label>
+        <input required type="text" name="name" id="lname" class="one" ></div>
+
+        <div> <label for="Street" class="label">Street:</label>
+            <input required type="text" name="address" id="Street" class="one" ></div>
+     
+            <div> <label for="city" class="label">City:</label>
+             <input required type="text" name="address" id="city" class="one" ></div>
+
+             <div> <label for="name" class="label">State:</label>
+                <input required type="text" name="address" id="state" class="one" ></div>
+         
+                <div> <label for="name" class="label">Pincode:</label>
+                 <input required type="number" name="" id="pincode" class="one" ></div>
+
+           <div><label for="contact number" class="label">Contact no.:</label>
+        <input required type="tel" name="contact" id="contact number" class="one" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <small>format:123-456-7891</small>
+                </div>
+
+<h3><strong><em>RATING:-</em></strong></h3>
+<div>
+<label for="QOP" class="label">QUALITY OF PRODUCT</label><br>
+<span> EXCELLENT:<input type="radio" name="quality of product" id="QOP">
+<span>GOOD: <input type="radio" name="quality of product" id="QOP">
+<span>BAD: <input type="radio" name="quality of product" id="QOP"></div>
+
+<div>
+<label for="VOM" class="label">Value for Money</label><br>
+<span>EXCELLENT: <input type="radio" name="value for money" id="VOM">
+<span>GOOD: <input type="radio" name="value for money" id="VOM">
+<span>BAD: <input type="radio" name="value for money" id="VOM">
+
+      </div>    
+      <div>   
+      <label for="delivery" class="label">QUALITY OF PRODUCT</label><br>
+     <span>EXCELLENT: <input required type="radio" name="delivery" id="delivery">
+      <span>GOOD: <input required type="radio" name="delivery" id="delivery">
+      <span>BAD: <input required type="radio" name="delivery" id="delivery"></div><br>
+
+      <div><input type="submit" value="Submit" class="button">
+        <input type="reset" value="reset" class="button"></div>
+      </form>
+</body>
+</html>
